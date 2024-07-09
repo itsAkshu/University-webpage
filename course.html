@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>Unversity Webpage design - Akash Mahato</title>
+    </head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                eaque?</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dicta tempora debitis aperiam sequi
+                        repellat incidunt et rem consectetur.
+                        Nemo animi iure quas doloremque assumenda necessitatibus
+                        tempora facere itaque corrupti illum.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dicta tempora debitis aperiam sequi
+                        repellat incidunt et rem consectetur.
+                        Nemo animi iure quas doloremque assumenda necessitatibus
+                        tempora facere itaque corrupti illum.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dicta tempora debitis aperiam sequi
+                        repellat incidunt et rem consectetur.
+                        Nemo animi iure quas doloremque assumenda necessitatibus
+                        tempora facere itaque corrupti illum.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="facilities">
+            <h1>Our failities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Corporis, error!</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Praesentium suscipit,
+                        amet quos impedit veritatis corrupti iste eius in.
+                        Cumque, dolores.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Playgrounds</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Praesentium suscipit,
+                        amet quos impedit veritatis corrupti iste eius in.
+                        Cumque, dolores.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healty Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Praesentium suscipit,
+                        amet quos impedit veritatis corrupti iste eius in.
+                        Cumque, dolores.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+                eum alias rerum harum aspernatur vitae explicabo, est
+                veritatis numquam in porro sapiente at?. Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Minus dicta totam accusantium
+                laudantium est repudiandae praesentium quae expedita veniam
+                quo.</p>
+
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-twitter-x"></i>
+            </div>
+            <p style="margin-top: 10px;">Made with <i
+                    class="bi bi-heart-fill"></i> by Akask Mahato</p>
+        </section>
+
+        <script>
+            var element = document.getElementById('navLinks');
+            function showMenu(){
+                element.style.right = '0';
+            }
+            function hideMenu(){
+                element.style.right = '-200px';
+            }
+        </script>
+    </body>
+</html>
